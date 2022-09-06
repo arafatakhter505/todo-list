@@ -1,0 +1,108 @@
+/* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #95a5a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  text-align: center;
+  height: 500px;
+  padding: 20px;
+  position: relative;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.section-top img {
+  width: 50px;
+}
+
+.input-area input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#add-btn {
+  background-color: #fd5864;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+#list-items {
+  margin: 10px 0;
+  overflow-y: scroll;
+  height: 40vh;
+}
+
+#list-items li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8ac8fd;
+  /* color: white; */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.del-btn {
+  width: 30px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.section-bottom {
+  width: 100%;
+  height: 50px;
+  background-color: #fd5864;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#clear-btn {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+}
+
+/* mobile view */
+@media only screen and (max-width: 688px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* tab view */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- main section start -->
+    <main>
+      <section class="container">
+        <div class="section-top">
+          <div class="brand">
+            <img src="images/logo.png" alt="" />
+            <h2>To-Do List</h2>
+          </div>
+          <div class="input-area">
+            <input id="input-field" type="text" placeholder="Enter your list" />
+            <button id="add-btn">Add</button>
+          </div>
+        </div>
+        <div class="section-item-area">
+          <ul id="list-items"></ul>
+        </div>
+        <div class="section-bottom">
+          <button id="clear-btn">Clear All List</button>
+        </div>
+      </section>
+    </main>
+    <!-- main section end -->
+    <!-- custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>
